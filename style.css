@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    padding: 0 15vw;
+    flex-wrap: wrap;
+}
+
+
+.box1 {
+    height: 18vw;
+    width: 18vw;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.box1 img {
+    height: 100%;
+    width: 100%;
+}
